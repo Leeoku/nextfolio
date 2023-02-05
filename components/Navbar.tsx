@@ -13,6 +13,7 @@ import {
   IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
+import DarkToggle from "./DarkToggle";
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
@@ -60,6 +61,7 @@ const Navbar = (props) => {
           <LinkItem href="https://github.com/Leeoku" path={path}>
             Github
           </LinkItem>
+          <DarkToggle/>
         </Stack>
       </Container>
     </Box>
