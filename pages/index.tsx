@@ -7,12 +7,37 @@ import Image from "next/image";
 const Home: NextPage = () => {
   return (
     <Container maxW="container.md">
-      <Navbar></Navbar>
+      <Navbar/>
       {/* <Box backgroundColor={"red"} flexGrow={1} display="flex">
         <section>Hello from Toronto!</section>
       </Box> */}
       <Heading>Kenneth Lee</Heading>
-      <Box>Developer, Food Explorer, Gamer</Box>
+      <Box >
+        <Box display={{ md: 'flex' }}>
+          <Box>
+            <p>Developer</p>
+            <p>Food Explorer</p>
+            <p>Gamer</p>
+          </Box>
+          <Box
+          flexShrink={0}
+          ml="auto"
+          textAlign="center"
+          float="right"
+          >
+          <Box
+            w="150px"
+            h="150px"
+            display="inline-block"
+            borderRadius="100%"
+            overflow="hidden"
+          > 
+            <Image src="/images/pic.jpg" alt="profile_pic" width="300px" height="350px"/>
+          </Box>
+        </Box>
+        </Box>
+      </Box>
+
       <Heading>About</Heading>
       <Box>
         <Text textStyle="h1">
