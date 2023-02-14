@@ -38,22 +38,22 @@ const Home: NextPage = () => {
         </Box>
       </Box>
 
-      <Heading>About</Heading>
+      <Heading variant="section-title">About</Heading>
       <Box>
-        <Text textStyle="h1">
+        <Text textStyle="h1" word-wrap="break-word">
           I&apos;m a full-stack developer who builds tools and digital
           experiences. From a young age, helping others has greatly shaped my
-          character. Code is my entry point to enhance people&apos;s lives. My
+          character. Now, I use code to enhance people&apos;s lives. <br/> <br/>My
           other hobbies include cooking and video games as avenues to meet new
           people, personal improvement and feed my competitive spirit.
         </Text>
       </Box>
-      <Heading>Bio</Heading>
+      <Heading variant="section-title">Bio</Heading>
       <Text>Current: Full Stack Developer @ Threekit</Text>
       <p>2020: Transition to Dev</p>
       <p>2016 - 2020: Various Engineering Positions</p>
       <p>2016: B. Engineering @ McMaster</p>
-      <Heading>Achievements</Heading>
+      <Heading variant="section-title">Achievements</Heading>
       <p>Queen Venture Scout, Collegiate eSports Manager &amp; Pioneer</p>
     </Container>
   );
