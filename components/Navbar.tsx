@@ -55,7 +55,7 @@ const Navbar = (props) => {
           </Heading>
         </Flex>
         <Stack direction="row" flexGrow={1}>
-          <LinkItem href="/work" path={path}>
+          <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
           <LinkItem href="https://github.com/Leeoku" path={path}>
