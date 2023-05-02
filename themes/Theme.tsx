@@ -26,6 +26,28 @@ const fonts = {
   heading: `'Montserrat', ${base.fonts?.heading}`,
   body: `'Montserrat', ${base.fonts?.heading}`,
 }
-const Theme = extendTheme({components, config, fonts});
+
+const styles = {
+  colors:{
+    red: {
+      300: "#FC8181"
+    }
+  },
+  dark:{
+    styles: {
+      global: {
+        "html, body": {
+          bg: "gray.800",
+        }
+      }
+    }
+  },
+  global: {
+  "html,  body": {
+    bg: "gray.200",
+  }
+  },
+}
+const Theme = extendTheme({components, config, fonts, styles});
 
 export default Theme;

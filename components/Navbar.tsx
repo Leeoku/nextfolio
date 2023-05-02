@@ -24,6 +24,7 @@ const LinkItem = ({ href, path, children }) => {
         p={2}
         bg={active ? "grassteal" : undefined}
         color={active ? "teal.300" : inactiveColor}
+        href={href}
       >
         {children}
       </Link>
@@ -37,7 +38,7 @@ const Navbar = (props) => {
     <Box
       position="relative" // todo check postion
       w="100%"
-      bg={useColorModeValue("yellow.300", "blue.300")}
+      bg={useColorModeValue("gray.200", 'gray.800')}
       zIndex={1}
       {...props}
     >
@@ -51,7 +52,7 @@ const Navbar = (props) => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"tight"}>
-            Kenneth Lee
+            <Link href="/">Kenneth Lee</Link>
           </Heading>
         </Flex>
         <Stack direction="row" flexGrow={1}>

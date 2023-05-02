@@ -6,7 +6,7 @@ const DarkToggle = () => {
   return (
       <IconButton 
       aria-label='Dark Toggle'
-      colorScheme={useColorModeValue('teal400', 'orange')}
+      colorScheme={useColorModeValue('teal', 'orange')}
       icon={useColorModeValue(<SunIcon/>, <MoonIcon/>)}
       onClick={toggleColorMode}
       >
