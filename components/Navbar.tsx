@@ -46,16 +46,14 @@ const Navbar = (props) => {
         display="flex"
         p={2}
         maxW="container.md"
-        wrap="wrap"
-        align="center"
-        justify="space-between"
+        justifyContent="right"
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"tight"}>
             <Link href="/">Kenneth Lee</Link>
           </Heading>
         </Flex>
-        <Stack direction="row" flexGrow={1}>
+        <Stack direction="row" flexGrow={1} justify="flex-end">
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>

@@ -8,21 +8,16 @@ import Image from "next/image";
 const Home: NextPage = () => {
   return (
     <Container maxW="container.md">
-      <Navbar/>
-      {/* <Box backgroundColor={"red"} flexGrow={1} display="flex">
-        <section>Hello from Toronto!</section>
-      </Box> */}
-      <Heading>Kenneth Lee</Heading>
       <Box >
-        <Box display={{ md: 'flex' }}>
-          <Box>
+        <Box display="flex" justifyContent="center">
+          {/* <Box display="flex" flexDirection="column" justifyContent="space-between">
             <p>Developer</p>
             <p>Food Explorer</p>
-            <p>Gamer</p>
-          </Box>
+            <p>Climber & Gamer</p>
+          </Box> */}
           <Box
           flexShrink={0}
-          ml="auto"
+          // ml="auto"
           textAlign="center"
           float="right"
           >
@@ -38,14 +33,14 @@ const Home: NextPage = () => {
         </Box>
         </Box>
       </Box>
-      <Section delay={0.1}>
+      <Section delay={0.2}>
         <Heading variant="section-title">About</Heading>
         <Box>
           <Text textStyle="h1" word-wrap="break-word">
             I&apos;m a full-stack developer who builds tools and digital
             experiences. From a young age, helping others has greatly shaped my
             character. Now, I use code to enhance people&apos;s lives. <br/> <br/>My
-            other hobbies include cooking and video games as avenues to meet new
+            other hobbies include cooking, rock climbing and video games as avenues to meet new
             people, personal improvement and feed my competitive spirit.
           </Text>
         </Box>
@@ -57,7 +52,7 @@ const Home: NextPage = () => {
         <p>2016 - 2020: Various Engineering Positions</p>
         <p>2016: B. Engineering @ McMaster</p>
       </Section>
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <Heading variant="section-title">Achievements</Heading>
         <p>Queen Venture Scout, Collegiate eSports Manager &amp; Pioneer</p>
       </Section>
