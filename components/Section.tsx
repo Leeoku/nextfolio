@@ -1,11 +1,16 @@
 import { chakra, shouldForwardProp } from '@chakra-ui/react'
 import { motion, isValidMotionProp } from 'framer-motion'
 
+interface SectionProps {
+  children: React.ReactNode,
+  delay?: number
+}
+
 const AnimatedDiv = chakra(motion.div, {
   shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop) 
 })
 
-const Section = ({children, delay = 0}) => (
+const Section = ({children, delay = 0}:SectionProps) => (
   <AnimatedDiv
   animate={{ y: 0, opacity: 1 }}
   initial={{ y: "-10"}}

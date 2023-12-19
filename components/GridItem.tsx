@@ -1,11 +1,25 @@
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import styles from "./GridItem.module.css"
 import { FaGithub } from "react-icons/fa";
-import { Global } from '@emotion/react'
 
-export const GridItem = ({children, href, title, thumbnail}) => (
+
+interface GridItemProps {
+  children:React.ReactNode,
+  href: string,
+  title: string, 
+  thumbnail: StaticImageData,
+}
+interface WorkGridItemProps {
+  children:React.ReactNode,
+  id?:string,
+  title: string, 
+  thumbnail: StaticImageData,
+  site: string,
+}
+
+export const GridItem = ({children, href, title, thumbnail}:GridItemProps) => (
   <Box textAlign="center">
     <LinkBox>
       <Image src={thumbnail} alt={title} placeholder="blur" loading = "lazy" className=""/>
@@ -17,7 +31,7 @@ export const GridItem = ({children, href, title, thumbnail}) => (
   </Box>
 )
 
-export const WorkGridItem = ({children, id, title, thumbnail, site}) => (
+export const WorkGridItem = ({children, id, title, thumbnail, site}:WorkGridItemProps) => (
   <Box w="100%" textAlign="center" >
     <LinkBox as={NextLink} href={site} cursor="pointer">
       <Box w="100%" h="100%" cursor="pointer">
