@@ -18,7 +18,7 @@ const components = {
 
 const config:ThemeConfig = {
   initialColorMode: 'dark',
-  useSystemColorMode: true
+  useSystemColorMode: false,
 }
 
 
