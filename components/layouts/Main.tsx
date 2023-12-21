@@ -10,7 +10,7 @@ interface MainProps {
 
 const Main = ({ children, router }:MainProps) => {
   return (
-    <Box as="main" pb={8} bg={useColorModeValue('gray.200', 'gray.800')} height={'100vh'}>
+    <Box as="main" pb={8} bg={useColorModeValue('gray.200', 'gray.800')} height={'100vh'} overflow= "scroll">
       <Head>
         <title>Kenneth Lee - Home</title>
       </Head>

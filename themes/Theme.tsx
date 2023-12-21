@@ -27,7 +27,7 @@ const fonts = {
   body: `'Montserrat', ${base.fonts?.heading}`,
 }
 
-const styles = {
+const styles:any = {
   colors:{
     red: {
       300: "#FC8181"
@@ -48,6 +48,10 @@ const styles = {
   }
   },
 }
-const Theme = extendTheme({components, config, fonts, styles});
+
+const cssVarOverrides = {
+  "--my-app-chakra-vh": "90vh"
+}
+const Theme = extendTheme({components, config, fonts, styles, cssVarOverrides});
 
 export default Theme;
