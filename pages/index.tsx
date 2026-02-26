@@ -36,24 +36,27 @@ const Home: NextPage = () => {
         <Heading variant="section-title">About</Heading>
         <Box>
           <Text textStyle="h1" word-wrap="break-word">
-            I&apos;m a full-stack developer who builds tools and digital
-            experiences. From a young age, helping others has greatly shaped my
-            character. Now, I use code to enhance people&apos;s lives. <br/> <br/>My
-            other hobbies include cooking, rock climbing and video games as avenues to meet new
-            people, personal improvement and feed my competitive spirit.
+            Full stack developer who excels at integrating diverse technologies and collaborating across stakeholders to deliver end-to-end solutions that prioritize user experience.
+
+            Over 5 years, I have delivered backend systems, AI-powered tools, and infrastructure 
+            improvements generating $1M+ in contract revenue including authentication systems 
+            enabling $500k enterprise deals to Python computer vision pipelines driving $660k in 
+            client revenue.
+
+            I focus on shipping complete solutions that balance technical excellence with business impact.
           </Text>
         </Box>
         </Section>
       <Section delay={0.2}>
         <Heading variant="section-title">Bio</Heading>
-        <Text>Current: Full Stack Developer @ Threekit</Text>
-        <p>2020: Transition to Dev</p>
-        <p>2016 - 2020: Various Engineering Positions</p>
-        <p>2016: B. Engineering @ McMaster</p>
+        <Text>2021-2026: Full Stack Developer @ Threekit</Text>
+        <Text>2020: Transition to Dev</Text>
+        <Text>2016 - 2020: Various Engineering Positions</Text>
+        <Text>2016: B. Engineering @ McMaster</Text>
       </Section>
       <Section delay={0.2}>
         <Heading variant="section-title">Achievements</Heading>
-        <p>Queen Venture Scout, Collegiate eSports Manager &amp; Pioneer</p>
+        <Text>Queen Venture Scout, Collegiate eSports Manager &amp; Pioneer</Text>
       </Section>
     </Container>
   );
