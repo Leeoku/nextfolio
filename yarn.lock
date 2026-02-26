@@ -1636,13 +1636,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-wasm-nodejs@npm:12.2.1":
-  version: 12.2.1
-  resolution: "@next/swc-wasm-nodejs@npm:12.2.1"
-  checksum: 10/cfb4dcb49c76ff7534d7cffc88fb7f4b032943d59db8f8e6b0340f35d3aa8edcb6cf7d8f898074e3685446345999aec959df5cd9244d64f72b157b7400efd731
-  languageName: node
-  linkType: hard
-
 "@next/swc-win32-arm64-msvc@npm:12.2.1":
   version: 12.2.1
   resolution: "@next/swc-win32-arm64-msvc@npm:12.2.1"
@@ -3743,7 +3736,6 @@ __metadata:
     "@emotion/react": "npm:^11"
     "@emotion/styled": "npm:^11"
     "@next/swc-linux-x64-gnu": "npm:^16.1.6"
-    "@next/swc-wasm-nodejs": "npm:12.2.1"
     "@types/node": "npm:18.0.3"
     "@types/react": "npm:^18.2.45"
     "@types/react-dom": "npm:18.0.6"
