@@ -35,14 +35,16 @@ const Home: NextPage = () => {
       <Section delay={0.2}>
         <Heading variant="section-title">About</Heading>
         <Box>
-          <Text textStyle="h1" word-wrap="break-word">
+          <Text textStyle="h1" word-wrap="break-word" whiteSpace="pre-line">
             Full stack developer who excels at integrating diverse technologies and collaborating across stakeholders to deliver end-to-end solutions that prioritize user experience.
-
+            <br/>
+            <br/>
             Over 5 years, I have delivered backend systems, AI-powered tools, and infrastructure 
             improvements generating $1M+ in contract revenue including authentication systems 
             enabling $500k enterprise deals to Python computer vision pipelines driving $660k in 
             client revenue.
-
+            <br/>
+            <br/>
             I focus on shipping complete solutions that balance technical excellence with business impact.
           </Text>
         </Box>
