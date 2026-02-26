@@ -1621,6 +1621,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-linux-x64-gnu@npm:^16.1.6":
+  version: 16.1.6
+  resolution: "@next/swc-linux-x64-gnu@npm:16.1.6"
+  checksum: 10/0dd9f645efe7a472f5fec5ff8936e61bb68ca038f53ddfae1ed64fbb66704ad5bfabb1a0e372d9c545fbfbdfce88c38aa5893bfe50bbb4a60615945aa8f2fd50
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@next/swc-linux-x64-musl@npm:12.2.1":
   version: 12.2.1
   resolution: "@next/swc-linux-x64-musl@npm:12.2.1"
@@ -3734,6 +3742,7 @@ __metadata:
     "@chakra-ui/system": "npm:^2.3.8"
     "@emotion/react": "npm:^11"
     "@emotion/styled": "npm:^11"
+    "@next/swc-linux-x64-gnu": "npm:^16.1.6"
     "@next/swc-wasm-nodejs": "npm:12.2.1"
     "@types/node": "npm:18.0.3"
     "@types/react": "npm:^18.2.45"
