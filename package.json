@@ -22,6 +22,7 @@
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/system": "^2.3.8",
     "@next/swc-linux-x64-gnu": "^16.1.6",
+    "@next/swc-wasm-nodejs": "12.2.1",
     "@types/node": "18.0.3",
     "@types/react": "^18.2.45",
     "@types/react-dom": "18.0.6",
