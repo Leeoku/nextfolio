@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             borderRadius="100%"
             overflow="hidden"
           > 
-            <Image src="/images/pic.jpg" alt="profile_pic" width={300} height={350}/>
+          <img src="/images/pic.jpg" alt="profile_pic" style={{width: "100%", height: "100%", objectFit: "cover"}}/>
           </Box>
         </Box>
         </Box>
