@@ -54,7 +54,7 @@ const Home: NextPage = () => {
         <Text>2021-2026: Full Stack Software Engineer @ Threekit</Text>
         <Text>2020: Transition to Dev</Text>
         <Text>2016 - 2020: Various Engineering Positions</Text>
-        <Text>2016: B. Engineering @ McMaster</Text>
+        <Text>2016: Bachelor of Engineering @ McMaster</Text>
       </Section>
       <Section delay={0.2}>
         <Heading variant="section-title">Achievements</Heading>
