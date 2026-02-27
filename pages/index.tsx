@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </Section>
       <Section delay={0.2}>
         <Heading variant="section-title">Bio</Heading>
-        <Text>2021-2026: Full Stack Developer @ Threekit</Text>
+        <Text>2021-2026: Software Engineer @ Threekit</Text>
         <Text>2020: Transition to Dev</Text>
         <Text>2016 - 2020: Various Engineering Positions</Text>
         <Text>2016: B. Engineering @ McMaster</Text>
