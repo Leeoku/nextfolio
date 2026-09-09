@@ -35,7 +35,9 @@ export const WorkGridItem = ({children, id, title, thumbnail, site}:WorkGridItem
   <Box w="100%" textAlign="center" >
     <LinkBox as={NextLink} href={site} cursor="pointer">
       <Box w="100%" h="100%" cursor="pointer">
-        <Image src={thumbnail} alt={title} placeholder="blur" loading = "lazy" className={styles.gridItemThumbnail} height="250" width="250" />
+        <Box display="flex" justifyContent="center">
+          <Image src={thumbnail} alt={title} placeholder="blur" loading = "lazy" className={styles.gridItemThumbnail} height="250" width="250" />
+        </Box>
         <Box display="flex" alignContent="center" justifyContent="center" >
           <Text mt={2}fontSize={16} align="center" marginTop="none" marginRight="0.5em">{title}</Text>  
           <FaGithub size={20}/>
