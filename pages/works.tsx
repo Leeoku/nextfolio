@@ -7,12 +7,18 @@ import dotaBotThumb from '../public/images/dotaBotThumb.png'
 import movieReminderThumb from '../public/images/movieReminderThumb.png'
 import pearishThumb from '../public/images/pearishThumb.png'
 import muxable from '../public/images/muxable.png'
+import room from '../public/images/room.jpg'
 
 const Works = () => {
   return (
     <Layout title="Works">
         <Heading  as="h3" fontSize={24} mb={6} mt={6}>Works</Heading>
         <SimpleGrid columns={[1,1,2]} gap={6} columnGap={10}>
+          <Section>
+            <WorkGridItem id="wallup" title="Wallup" thumbnail={room} site="https://github.com/Leeoku/wallup">
+              AI tool to detect wall regions, recommend colours and recolour wall areas.
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem id="muxable" title="Muxable" thumbnail={muxable} site="https://github.com/muxable/stream-dashboard">
               Implemented authentication and UI for an open source stream dashboard.
